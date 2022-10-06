@@ -1,0 +1,225 @@
+    /* VARIABLES */
+
+:root {
+
+    /*Palette*/
+
+    --primario: #006D78;
+    --secundario: #0085A4;
+    --terciario: #9BC2C6;
+    --cuaternario: #888F90;
+    --quinario: #E3E3E3;    
+
+        /* Font Sizes */
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.0em;
+    --text-sm: 1.6em;
+    --text-xs: 1.2em;
+
+        /* Spacings */
+
+    --sp-xxl: 12rem;
+    --sp-xl:8rem;
+    --sp-lg: 8rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 2.0rem;
+    --sp-xs: 1.6;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap');
+        
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+        
+}
+        
+body { 
+        
+    background-color: rgba(0, 0, 0, 0.253);
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0); 
+}
+        
+header {
+    background-color: #efefef;
+    clear: both;
+    content: '';
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+        
+
+.container .nav{
+    display: flex;
+    
+}
+
+.img_logo { 
+    display: flex;
+    max-width: 120px;
+    padding: 20px 0;
+}       
+.nav_link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    position: relative;
+    align-items: center;
+}
+        
+nav ul li a { 
+        
+    text-decoration: none;
+    color: var(--primario);
+    font-weight: bold;
+}
+        
+nav ul li a::before { 
+        
+    display: block;
+    content: '';
+    background: var(--secundario);
+    height: 5px;
+    top: -10px;
+    position: absolute;
+    transition: width 20s;
+}
+    nav ul li a:hover::before {
+        
+    width: 100%;
+} 
+
+p {
+    font-size: var(--sp-sm);
+        
+}
+
+.parallas, .main, .texto{margin:0 auto}
+
+.parallax {
+        
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    max-width: 100%;
+    position: relative;
+    opacity: 0.75;
+}
+        
+.texto-int-imagen{
+        
+    background: var(--primario);
+    border-radius: 20px;
+    color:rgb(255, 245, 245);
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top:40%;
+    width: 80%;
+    padding: 3px 10px;
+}
+        
+        
+        
+    .img-uno{background-image: url(../img/finanzas_1.jpg)}
+    .img-dos{background-image:url(../img/finanzas_1.jpg)}
+    .img-tres{background-image:url(../img/finanzas_1.jpg)}
+        
+.texto{
+        
+    padding:5%;
+    width: 90%;
+    border-radius: 2px;
+}
+        
+    /*:::::Pie de Pagina*/
+        
+.pie-pagina{
+        
+    width: 100%;
+    background-color: #122838;
+        
+}
+        
+.pie-pagina .figure{
+        
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .box figure img{
+        
+    width: 250px;
+}
+
+section article {
+
+    display: flex;
+    justify-content: center;
+}
+.pie-pagina section article h2{
+        
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: var(--sp-sm);
+    align-content: center;
+}
+
+.pie-pagina .red-social a{
+        
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 20px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+        
+.pie-pagina .red-social a:hover{
+        
+    color: aqua;
+}
+        
+.pie-pagina .grupo-2{
+        
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+        
+.pie-pagina .grupo-2 small{
+        
+    font-size: 12px
+}
+
+@media screen and (max-width:800px){
+        
+.pie-pagina header{
+        
+    width: 90%;
+    padding: 35px 0px;
+    }
+}

@@ -1,0 +1,192 @@
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap');
+
+body { 
+
+background-color: rgba(0, 0, 0, 0.253);
+font-size: 25px;
+font-family: sans-serif;
+color: rgb(0, 0, 0); 
+}
+
+header {
+        background-color:#851c3b;
+        width: 100%;
+        clear: both;
+        content: '';
+        display: table;
+        justify-content: space-between;
+        align-items: center;
+
+}
+.menu {
+
+    width: 1200px;
+    margin: 0 auto;
+    position: center;
+}
+
+.img_logo { 
+    size-adjust: 32px;
+    width: 350px;
+    height: 220px;
+    float: left;
+    padding: 5px;
+    line-height: 200px;
+
+
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    margin-top: 90px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+
+}
+
+nav ul li a::before { 
+    display: block;
+    content: '';
+    width: 100;
+    background: rgb(202, 148, 148);
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 2s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+
+}
+
+p   {
+	font-size: 1.4rem;
+	margin:0 0 24px 0
+}
+
+.parallas, .main, .texto{margin:0 auto}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative;
+    box-shadow: rgba(255, 255, 255, 0.302);
+    opacity: 0.75;
+}
+
+.texto-int-imagen{
+    background: #ff000031;
+    border-radius: 20px 20px 0px 0px;
+	color:rgb(255, 245, 245);
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%;
+    padding: 3px 10px;
+
+}
+
+.img-uno{background-image: url(../img/pexels-cottonbro-5474285.jpg)}
+
+.img-dos{background-image:url(../img/nustra_mision.png)}
+
+.img-tres{background-image:url(../img/liderazgo-y-trabajo-en-equipo.png)}
+
+.texto{
+	padding:5%;
+	width: 90%
+}
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #122838;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1 header{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+

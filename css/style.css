@@ -25,6 +25,8 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap');
     @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
 * {
 margin: 0;
 padding:0;
@@ -35,7 +37,7 @@ box-sizing: border-box;
 body { 
 
     font-size: var(--text-md);
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header {
@@ -204,12 +206,19 @@ body {
 }
 
 .nosotros__tittle {
+    font-family:'Poppins' sans-serif;
     font-size: var(--text-xxl);
     font-weight: 300;
     margin-bottom: 2.2rem;
     
 }
 
+.nosotros__tittle::after 
+.nosotros__tittle::before {
+    animation-delay: 5s ease-in;
+
+    
+}
 .content {
     max-width: 450px;
     color: var(--terciario);

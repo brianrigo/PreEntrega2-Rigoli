@@ -147,7 +147,6 @@ body {
         background-position: center;
         background-size: cover;
         height: 300px;
-
         position: relative;
         
     }
@@ -166,6 +165,10 @@ body {
         padding: 3px 10px;
     }
 
+    .paragraph_texto {
+
+
+    }
     .img-uno{background-image: url(../img//1.jpg)}
     .img-dos{background-image:url(../img//1.jpg)}
     .img-tres{background-image:url(../img//1.jpg)}
@@ -173,9 +176,10 @@ body {
 
     .texto{ /* TEXTO INTERIOR PARALLAX*/
             
-        padding:5%;
-        width: 90%;
-        border-radius: 2px;
+        padding: 50px;
+        max-width: 950px;
+        border-top: 5px solid var(--secundario);
+        border-bottom: 5px solid var(--secundario);
     }
 
 /*:::: PAGE NOSOTROS  :::: /* :::: PAGE NOSOTROS  :::: */ /* :::: PAGE NOSOTROS  :::: *//* :::: PAGE NOSOTROS  :::: */

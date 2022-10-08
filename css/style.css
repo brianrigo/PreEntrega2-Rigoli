@@ -220,10 +220,38 @@ body {
     margin-bottom: 2.2rem;
 }
 
+.article__subtitle {
+
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+
+}
 .nosotros__subtitle {
     font-size: var(--text-xl);
     font-weight: 300;
+    display: inline;
 }
+
+.nosotros__subtitle {
+
+    font-size: var(--text-xl);
+    color:var(--primario); 
+}
+    .nosotros__subtitle::before {
+        
+        content: '';
+        width: 50px;
+        height: 8px;
+        background-color: var(--primario);
+        position:absolute;
+        margin-top: -10px;
+        
+    }
 
     /*:::: EQUIPO REUQUEN ::::*/    /*:::: EQUIPO REUQUEN ::::*/    /*:::: EQUIPO REUQUEN ::::*/
     
@@ -265,7 +293,6 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         border: 3px solid var(--primario);
-        /* border-left: 3px solid var(--primario); */
         padding: 50px;
         margin: 20px;
     }

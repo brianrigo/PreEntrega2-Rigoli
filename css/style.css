@@ -385,7 +385,7 @@ body {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 150px) ;
         grid-gap:10px;
-        background-color: var(--secundario)
+        background-color:aliceblue;
 
     }
 
@@ -394,7 +394,7 @@ body {
         flex-direction: column;
         height: 150px;
         width: 150px;
-
+        justify-content: center;
     }
 
     .gallery__img {
@@ -403,6 +403,7 @@ body {
         max-height: 150px;
         object-fit: cover;
         display: flex;
+        
 
 
     }
@@ -422,7 +423,17 @@ body {
         font-weight: 300;
         background-color: var(--secundario);
         color: var(--terciario);
+}
 
+    .h2-clientes::before {
+            
+        content: '';
+        width: 150px;
+        height: 4px;
+        background-color: var(--primario);
+        position:absolute;
+        margin-top: 80px;
+        
 }
 
     /*::: PAGE CONTACTO :::*/   /*::: PAGE CONTACTO :::*/   /*::: PAGE CONTACTO :::*/

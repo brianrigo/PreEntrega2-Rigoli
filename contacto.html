@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header id="header" class="menu">
@@ -22,11 +23,26 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <div class="contacto_div">
+        <h2 class="contacto_h2">Reuquen SRL, con sede en Colonia, Uruguay.</h2>
+            <h3 class="contacto_h3">Contactate con nosotros completando el siguiente formulario</h3>
+    </div>
+    <main class="main-contact">
+        <section class="form-contact">
+            <form action="" class="contact" >
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres">
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo">
+                <label for="nombres">Celular</label>
+                <input type="text" name="celular" id="celular">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
         <section>
-            <article>
-                <form action="input"></form>
-            </article>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2325.8958394663878!2d-57.83037215360864!3d-34.46957202774414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a31270d5d09f37%3A0xd9844766c4654e1e!2sZona%20Franca%20Colonia!5e0!3m2!1ses-419!2suy!4v1665405267263!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     

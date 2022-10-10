@@ -385,7 +385,7 @@ body {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 150px) ;
         grid-gap:10px;
-        background-color:#1e2c4154
+        background-color: var(--secundario)
 
     }
 
@@ -406,30 +406,54 @@ body {
 
 
     }
+    .h2-clientes{
 
-    .h2-clientes {
-
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-color: var(--secundario);
+        height: 200px;
     }
+    .clientes__tittle {
+        font-family: 'Poppins' sans-serif;
+        font-size: var(--text-xxl);
+        font-weight: 300;
+        background-color: var(--secundario);
+        color: var(--terciario);
+
+}
 
     /*::: PAGE CONTACTO :::*/   /*::: PAGE CONTACTO :::*/   /*::: PAGE CONTACTO :::*/
 
     .contacto_div {
         
         display: flex;
-        width: 350px;
+        width: 500px;
         height: 100px;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 200px;
+        padding-top: 50px;
+        justify-content: center;
 
     }
 
     .contacto_h2{
 
         font-size: var(--text-md);
+        color: var(--primario);
+        margin-right: 30px;
+
+
     }
 
     .contacto_h3 {
 
         font-size: var(--text-sm);
+        
     }
     .main-contact {
 
@@ -437,7 +461,7 @@ body {
         align-items: center;
         flex-direction: wrap;
         justify-content: space-around;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 100px;
 
     }
@@ -449,8 +473,9 @@ body {
         top: 50%;
         left: 50%;
         box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
-    }
         
+    }
+
     .contact {
         padding: .8rem;
         overflow: hidden;
@@ -490,12 +515,19 @@ body {
         cursor: pointer;
     
     }
+    .section-maps{
 
+        
+        border: solid var(--secundario);
+        margin-right: 100px;
+    }
     .maps {
 
         max-width: auto;
         max-height: 250px;
+
     }
+
 
     
 
@@ -519,8 +551,8 @@ body {
             }   
     }
 
-        @media (max-width: 600px) {
-        .nav_link { /*ESTILO IMÁGENES PARRALLAX*/
+        @media (max-width: 600px) {   /*ESTILO IMÁGENES PARRALLAX*/
+        .nav_link { 
 
             display: flex;
             flex-direction: column;
@@ -540,6 +572,27 @@ body {
             flex-wrap: wrap;
         }
     }
+
+        @media (max-width:1200px) { /*MEDIAS PARA PAGE CONTACTO */
+            .main-contact {
+
+                display: flex;
+                flex-direction: column;
+                gap: 80px }
+
+            .contact {
+
+                width: auto;;
+                height: auto;
+            }
+
+            .maps {
+
+                height: auto;
+                width: auto;
+            }
+            
+        }
 
     /* @media screen and (max-width: 900px) {
 

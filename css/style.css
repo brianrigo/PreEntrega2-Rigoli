@@ -505,7 +505,7 @@ body {
         border: none;
         color: white;
         font-size: 20px;
-        /* pointer-events: none; */
+        /* pointer-events: none;
         cursor: pointer;
     
     }
@@ -520,7 +520,7 @@ body {
         max-width: auto;
         max-height: 250px;
 
-    } */
+    }
 
 /*:::::Pie de Pagina*//*:::::Pie de Pagina*//*:::::Pie de Pagina*//*:::::Pie de Pagina*/
             

@@ -1,0 +1,99 @@
+/*::: MEDIA QUERIES :::*/
+    
+@media (max-width:1200px) { /*MEDIAS PARA PAGE CONTACTO */
+            
+    .nav {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center; 
+        }
+        
+    .nav .nav_link {
+        display: none;
+        }
+
+    .hamburger,
+    .check-style {
+        display: block;
+}
+
+    .check-style {
+        display: none;
+        position: absolute;
+        width: 60px;
+        height: 35px;
+        top: 82px;
+        opacity: 0;
+}
+    .check-style:checked + ul {
+
+        display: block;
+
+    }
+    .user_info { grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-contact {
+
+        display: flex;
+        flex-direction: column;
+        gap: 80px }
+
+    .contact {
+
+        width: auto;;
+        height: auto;
+    }
+
+    .maps {
+
+        height: auto;
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 992px) {
+            
+    .article__subtitle { 
+        
+        margin-top: 50px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+}
+}
+
+@media (max-width: 768px) {
+.user_info { grid-template-columns: repeat(1, 1fr); 
+}
+
+.gallery__div { 
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+}
+
+
+    
+    @media (max-width: 576px) {   /*ESTILO IMÁGENES PARRALLAX*/
+        .nav_link { 
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: stretch; 
+        }
+    }
+
+
+
+    @media screen and (max-width: 900px) {
+
+
+
+    
+}

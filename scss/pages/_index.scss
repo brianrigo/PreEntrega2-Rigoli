@@ -1,0 +1,46 @@
+p {
+    font-size: var(--sp-md);
+        
+}
+
+
+.parallax, .main, .texto{margin:0 auto}
+
+.parallax { /*ESTILO IMÁGENES PARRALLAX*/
+    
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    
+}
+
+.texto-int-imagen{ /*ESTILO INTERIOR IMÁGENES PARALLAX*/
+
+    background: #ff000031;
+    border-radius: 20px;
+    color: var(--terciario);
+    font-size: var(----text-sm);
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top:40%;
+    width: 80%;
+    padding: 3px 10px;
+}
+.img-uno{background-image: url(../img//1.jpg)}
+.img-dos{background-image: url(../img//1.jpg)}
+.img-tres{background-image: url(../img//1.jpg)}
+
+
+
+.texto{ /* TEXTO INTERIOR PARALLAX*/
+        
+    padding: 50px;
+    max-width: 950px;
+    border-top: 5px solid var(--secundario);
+    border-bottom: 5px solid var(--secundario);
+}

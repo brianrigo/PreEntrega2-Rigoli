@@ -71,14 +71,6 @@
         background-color: var(--secundario);
         height: 200px;
     }
-    .clientes__tittle {
-        font-family: 'Poppins' sans-serif;
-        font-size: var(--text-xxl);
-        font-weight: 300;
-        background-color: var(--secundario);
-        color: var(--terciario);
-}
-
     .h2-clientes::before {
             
         content: '';
@@ -89,3 +81,11 @@
         margin-top: 80px;
         
 }
+    .clientes__tittle {
+        font-family: 'Poppins' sans-serif;
+        font-size: var(--text-xxl);
+        font-weight: 300;
+        background-color: var(--secundario);
+        color: var(--terciario);
+}
+

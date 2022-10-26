@@ -8,6 +8,7 @@
 /* MISC */
 
 @import './misc/variables';
+@import './misc/normalize';
 
 /* PARTIALS */
 
@@ -33,3 +34,5 @@
 /* CONTACTO */
 
 @import './pages/contacto';
+
+@import './misc/mediaqueries';

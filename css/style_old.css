@@ -5,16 +5,16 @@ box-sizing: border-box;
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap';
 
 
 
 body { 
 
-background-color: rgba(0, 0, 0, 0.253);
+background-color: rgba(0, 0, 0, 0.253;
 font-size: 25px;
 font-family: sans-serif;
-color: rgb(0, 0, 0); 
+color: rgb(0, 0, 0; 
 }
 
 header {
@@ -61,7 +61,7 @@ nav ul li {
 nav ul li a { 
 
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255;
     font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ nav ul li a::before {
     display: block;
     content: '';
     width: 100;
-    background: rgb(202, 148, 148);
+    background: rgb(202, 148, 148;
     height: 5px;
     top:0;
     position: absolute;
@@ -114,7 +114,7 @@ p   {
 	height:30rem;
 	max-width: 100%;
 	position: relative;
-    box-shadow: rgba(255, 255, 255, 0.302);
+    box-shadow: rgba(255, 255, 255, 0.302;
     opacity: 0.75;
 
 }
@@ -125,7 +125,7 @@ p   {
 
     background: #ff000031;
     border-radius: 20px 20px 0px 0px;
-	color:rgb(255, 245, 245);
+	color:rgb(255, 245, 245;
 	font-size: 2rem;
 	font-weight: bold;
 	left: 10%;

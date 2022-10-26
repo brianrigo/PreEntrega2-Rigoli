@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Soluciones de infraestructura, Helpdesk y Soporte IT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/brianrigo/PreEntrega2-Rigoli.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": "Servidores, Soporte, Helpdesk, Redes, routers, mantenimiento informatico, Mikrotik, Lan, Office365. Exchange, Sharepint, MS Teams, Google ws",
+  "author": "Reuquen SRL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brianrigo/PreEntrega2-Rigoli/issues"

@@ -29,7 +29,7 @@
     --sp-xs: 1.6;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Titan+One&display=swap';
         
 * {
     margin: 0;
@@ -40,10 +40,10 @@
         
 body { 
         
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.253;
     font-size: 25px;
     font-family: sans-serif;
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0; 
 }
         
 header {
@@ -82,7 +82,7 @@ nav ul li {
 nav ul li a { 
         
     text-decoration: none;
-    color: var(--primario);
+    color: var(--primario;
     font-weight: bold;
 }
         
@@ -90,7 +90,7 @@ nav ul li a::before {
         
     display: block;
     content: '';
-    background: var(--secundario);
+    background: var(--secundario;
     height: 5px;
     top: -10px;
     position: absolute;
@@ -102,7 +102,7 @@ nav ul li a::before {
 } 
 
 p {
-    font-size: var(--sp-sm);
+    font-size: var(--sp-sm;
         
 }
 
@@ -121,9 +121,9 @@ p {
         
 .texto-int-imagen{
         
-    background: var(--primario);
+    background: var(--primario;
     border-radius: 20px;
-    color:rgb(255, 245, 245);
+    color:rgb(255, 245, 245;
     font-size: 2rem;
     font-weight: bold;
     position: absolute;
@@ -180,7 +180,7 @@ section article {
         
     color: #fff;
     margin-bottom: 25px;
-    font-size: var(--sp-sm);
+    font-size: var(--sp-sm;
     align-content: center;
 }
 

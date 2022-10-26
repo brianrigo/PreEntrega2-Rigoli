@@ -190,8 +190,6 @@ p {
   border-bottom: 5px solid var(--secundario); }
 
 /* NOSOTROS */
-/*:::: PAGE NOSOTROS  :::: /* :::: PAGE NOSOTROS  :::: */
-/* :::: PAGE NOSOTROS  :::: */
 /* :::: PAGE NOSOTROS  :::: */
 #nosotros {
   padding: var(--sp-xl);
@@ -258,8 +256,6 @@ p {
   margin-top: -10px; }
 
 /*:::: EQUIPO REUQUEN ::::*/
-/*:::: EQUIPO REUQUEN ::::*/
-/*:::: EQUIPO REUQUEN ::::*/
 #equipo_section {
   list-style: none;
   display: grid;
@@ -308,6 +304,101 @@ p {
   font-size: var(--text-md); }
 
 /* SERVICIOS */
+/* ::: PAGE SERVICIOS :::*/
+.section-servicios {
+  background-image: url(/img/7.png);
+  top: auto;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+  .section-servicios .article--servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 200px; }
+    .section-servicios .article--servicios .h2--servicios {
+      color: var(--terciario);
+      margin-bottom: 20px;
+      font-size: var(--text-xxl);
+      width: auto;
+      height: auto; }
+    .section-servicios .article--servicios .h2--servicios::before {
+      content: '';
+      width: 340px;
+      height: 60px;
+      background-color: var(--primario);
+      position: absolute;
+      opacity: 0.40;
+      border-radius: 10px; }
+    .section-servicios .article--servicios .h2--servicios:hover {
+      color: #ddbbc2; }
+    .section-servicios .article--servicios .div--servicios-2 {
+      font-size: var(--text-md); }
+
+.section2-servicios {
+  background-color: var(--secundario);
+  color: var(--terciario);
+  justify-content: center;
+  padding: 50px; }
+  .section2-servicios .div--servicios-3 {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .section2-servicios .div--servicios-3::before {
+      content: '';
+      width: 260px;
+      height: 8px;
+      background-color: var(--primario);
+      position: absolute;
+      margin-top: 40px; }
+    .section2-servicios .div--servicios-3 .h2--servicios2 {
+      display: inline;
+      position: relative;
+      font-size: var(--text-xl);
+      margin-top: 20px;
+      margin-bottom: 80px;
+      color: var(--primario); }
+    .section2-servicios .div--servicios-3 .h2--servicios::before {
+      content: '';
+      height: 10px; }
+  .section2-servicios .div--card {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 30px; }
+    .section2-servicios .div--card .article-card .card {
+      display: flex;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      border: none;
+      flex-direction: column;
+      background-clip: border-box;
+      width: 500px; }
+      .section2-servicios .div--card .article-card .card p {
+        background-color: var(--primario);
+        padding: 20px; }
+      .section2-servicios .div--card .article-card .card .subtittle-h4 {
+        font-size: 28px;
+        padding: 20px;
+        margin-bottom: 50px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+      .section2-servicios .div--card .article-card .card i {
+        text-decoration: none; }
+      .section2-servicios .div--card .article-card .card i:hover {
+        color: var(--primario); }
+
 /* CLIENTES */
 /*::: PAGE CLIENTES :::*/
 .contenedor__clientes {
@@ -360,13 +451,6 @@ p {
   background-color: var(--secundario);
   height: 200px; }
 
-.clientes__tittle {
-  font-family: 'Poppins' sans-serif;
-  font-size: var(--text-xxl);
-  font-weight: 300;
-  background-color: var(--secundario);
-  color: var(--terciario); }
-
 .h2-clientes::before {
   content: '';
   width: 150px;
@@ -375,9 +459,14 @@ p {
   position: absolute;
   margin-top: 80px; }
 
+.clientes__tittle {
+  font-family: 'Poppins' sans-serif;
+  font-size: var(--text-xxl);
+  font-weight: 300;
+  background-color: var(--secundario);
+  color: var(--terciario); }
+
 /* CONTACTO */
-/*::: PAGE CONTACTO :::*/
-/*::: PAGE CONTACTO :::*/
 /*::: PAGE CONTACTO :::*/
 .contacto_div {
   display: flex;
@@ -454,3 +543,47 @@ input[type='submit'] {
 .maps {
   max-width: auto;
   max-height: 250px; }
+
+/*::: MEDIA QUERIES :::*/
+@media (max-width: 1200px) {
+  .nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; } }
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 80px; }
+
+.contact {
+  width: auto;
+  height: auto; }
+
+.maps {
+  height: auto;
+  width: auto; }
+
+@media (max-width: 992px) {
+  .article__subtitle {
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; } }
+
+@media (max-width: 768px) {
+  .user_info {
+    grid-template-columns: repeat(1, 1fr); }
+  .gallery__div {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr); } }
+
+@media (max-width: 576px) {
+  /*ESTILO IMÁGENES PARRALLAX*/
+  .nav_link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch; } }

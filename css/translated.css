@@ -548,10 +548,14 @@ input[type='submit'] {
 @media (max-width: 992px) {
   .nav {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center; }
   .nav_link {
-    display: none; }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch; }
   .main-contact {
     display: flex;
     flex-direction: column;

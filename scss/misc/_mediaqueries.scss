@@ -4,13 +4,20 @@
 
     .nav {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-items: center; 
         }
-        
-        & .nav_link {
-        display: none;
+        & .nav_link{
+        display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: stretch; 
+
         }
+        // & .nav_link {
+        // display: block;
+        // }
 
 //     .hamburger,
 //     .check-style {

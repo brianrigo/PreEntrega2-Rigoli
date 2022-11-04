@@ -170,17 +170,17 @@ p {
   position: absolute;
   text-align: center;
   top: 40%;
-  width: 80%;
+  width: 50%;
   padding: 3px 10px; }
 
 .img-uno {
-  background-image: url(../img//1.jpg); }
+  background-image: url(../img//1_b.png); }
 
 .img-dos {
-  background-image: url(../img//1.jpg); }
+  background-image: url(../img//1_b.png); }
 
 .img-tres {
-  background-image: url(../img//1.jpg); }
+  background-image: url(../img//1_b.png); }
 
 .texto {
   /* TEXTO INTERIOR PARALLAX*/
@@ -289,7 +289,13 @@ p {
   flex-wrap: wrap;
   border: 3px solid var(--primario);
   padding: 50px;
-  margin: 20px; }
+  margin: 20px;
+  border-radius: 6px;
+  transition: all 200ms ease-in-out; }
+
+.article_info:hover {
+  box-shadow: var(--primario) 0px 15px 30px;
+  opacity: 2.75; }
 
 .user_info .article_info .nombre_empleado {
   color: var(--primario);
@@ -337,7 +343,8 @@ p {
     .section-servicios .article--servicios .h2--servicios:hover {
       color: #ddbbc2; }
     .section-servicios .article--servicios .div--servicios-2 {
-      font-size: var(--text-md); }
+      font-size: var(--text-md);
+      width: 600px; }
 
 .section2-servicios {
   background-color: var(--secundario);
@@ -369,7 +376,6 @@ p {
       content: '';
       height: 10px; }
   .section2-servicios .div--card {
-    display: flex;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -578,7 +584,19 @@ input[type='submit'] {
     grid-template-columns: repeat(1, 1fr); }
   .gallery__div {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr); } }
+    grid-template-rows: repeat(8, 1fr); }
+  .section-servicios .article--servicios {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    padding: 50px; }
+  .section2-servicios .div--card .article-card .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 10px; } }
 
 @media (max-width: 992px) and (max-width: 576px) {
   /*ESTILO IMÁGENES PARRALLAX*/

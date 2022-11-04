@@ -15,28 +15,7 @@
             align-content: stretch; 
 
         }
-        // & .nav_link {
-        // display: block;
-        // }
 
-//     .hamburger,
-//     .check-style {
-//         display: block;
-// }
-
-//     .check-style {
-//         display: none;
-//         position: absolute;
-//         width: 60px;
-//         height: 35px;
-//         top: 82px;
-//         opacity: 0;
-// }
-//     .check-style:checked + ul {
-
-//         display: block;
-
-//     }
     
     .main-contact {
 
@@ -73,7 +52,24 @@
     
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(8, 1fr);
-        }   
+        }
+        .section-servicios .article--servicios  {
+
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        padding: 50px;
+        }
+        .section2-servicios .div--card .article-card .card {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 200px;
+            gap: 10px;
+
+        }
 }
 
 
@@ -87,5 +83,7 @@
             align-items: center;
             align-content: stretch; 
         }
+
+
     }
 }

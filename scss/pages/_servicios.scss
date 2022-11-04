@@ -45,6 +45,7 @@
         .div--servicios-2 {
 
             font-size: var(--text-md);
+            width: 600px;
             }
 
     } 
@@ -92,7 +93,7 @@
         }
     }
     .div--card {
-        display: flex;
+        
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -119,6 +120,7 @@
 
                     background-color: var(--primario);
                     padding: 20px;
+                    
                 }
                 .subtittle-h4 {
                     font-size: 28px;

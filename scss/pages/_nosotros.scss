@@ -99,7 +99,16 @@
     flex-wrap: wrap;
     border: 3px solid var(--primario);
     padding: 50px;
-    margin: 20px; }
+    margin: 20px; 
+    border-radius: 6px;
+    transition: all 200ms ease-in-out;
+    
+  }
+    .article_info:hover {
+      box-shadow: var(--primario)  0px 15px 30px ;
+      opacity:2.75;
+
+    }
   
   .user_info .article_info .nombre_empleado {
     color: var(--primario);
